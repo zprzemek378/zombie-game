@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Zombie Game</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <main id="wholeContent">
+      <div class="blackBack"></div>
+      <div id="mainContent">
+        <div id="photoContainer">
+          <img
+            src="./resources/board-bg.jpg"
+            alt="backgroundPhoto"
+            id="backgroundPhoto"
+          />
+          <div id="heartContainer">
+            <img src="./resources/full_heart.png" class="heart" id="heart0" />
+            <img src="./resources/full_heart.png" class="heart" id="heart1" />
+            <img src="./resources/full_heart.png" class="heart" id="heart2" />
+          </div>
+          <div id="counter">00030</div>
+          <div id="board">
+            <div id="board2"></div>
+          </div>
+        </div>
+        <img src="./resources/aim.png" alt="crosshair" id="crosshair" />
+      </div>
+      <div class="blackBack"></div>
+    </main>
+    <script src="index.js"></script>
+    <script src="gameplay.js"></script>
+  </body>
+</html>
